@@ -1,0 +1,29 @@
+{
+  "name": "user-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env DEBUG=app:* nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelhuchim05/user-api-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelhuchim05/user-api-demo/issues"
+  },
+  "homepage": "https://github.com/miguelhuchim05/user-api-demo#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
